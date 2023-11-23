@@ -1,0 +1,17 @@
+.about_section {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.about_col {
+    width: 50%;
+    padding: 20px;
+}
+.about_img {
+    width: 50%;
+}
+.about_img img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(15% 0, 100% 0%, 83% 100%, 0% 100%);
+}

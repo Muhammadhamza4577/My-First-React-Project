@@ -1,0 +1,65 @@
+.Container {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.logo {
+    width: 25%;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'cinzel';
+}
+.logo span {
+    color: #0068d4;
+}
+.menu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu ul li {
+    list-style-type: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'poppins';
+    padding: 8px 25px;
+    color: black;
+}
+.menu ul li a:hover {
+    color: #0068d4;
+    border-bottom: 2px solid #0068d4;
+}
+.get_btn {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background: #0068d4;
+    padding: 12px;
+    border-radius: 8px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+.btn:hover {
+    background: transparent;
+    border: 1px solid #0068d4;
+}
+.btn:hover a {
+    color: #0068d4;
+}
+

@@ -1,0 +1,28 @@
+.container_banner {
+    width: 100%;
+    display: flex;
+    height: 600px;
+    background: url('./banner.png');
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1.banner_head {
+    text-align: center;
+    font-size: 72px;
+    color: white;
+    font-weight: 700;
+    font-family: 'cinzel';
+    padding: 0px;
+    margin: 0px;
+}
+p.banner_desc {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: 'poppins';
+    padding: 0px 160px;
+}

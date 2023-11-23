@@ -1,0 +1,63 @@
+.contact-head {
+    display: flex;
+    justify-content: center;
+}
+.contact-form {
+    padding: 0% 20.5%;
+}
+.contact-inputs {
+    display: flex;
+    justify-content: center;
+}
+.comment {
+    display: flex;
+    justify-content: center;
+}
+.myinput input {
+    border: none;
+    background: #e9e9e9;
+    padding: 14px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #0000005e;
+    margin: 18px;
+}
+.comment textarea{
+    border: none;
+    background: #e9e9e9;
+    padding: 14px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #0000005e;
+    margin: 18px;
+    width: 100%;
+}
+.contact-btn {
+    padding-left: 15px;
+}
+.contact-btn button {
+    background: #0068d4;
+    padding: 14px 24px;
+    border: 1px solid #0068d4;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'poppins' !important;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.contact-btn button:hover {
+    background: transparent;
+    padding: 14px 24px;
+    border: 1px solid #0068d4;
+    color: #0068d4;
+}
+.contact-us {
+    padding-top: 50px;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+.copyright h1 {
+    font-size: 16px;
+    font-weight: 400;
+}
